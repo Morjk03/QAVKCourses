@@ -17,6 +17,8 @@ public class LoginClass {
         return userMainPage;
     }
     //Это я добавил чтобы при запуске серии тестов они все не падали
+
+
     @AfterAll
     static void CloseBrowser(){
         Selenide.closeWebDriver();
